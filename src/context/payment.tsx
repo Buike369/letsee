@@ -156,6 +156,7 @@ export const PaymentProvider = ({
 
   return (
     <PaymentContext.Provider value={value}>
+      
       {children}
       <PaymentModal
         isOpen={showPaymentModal}

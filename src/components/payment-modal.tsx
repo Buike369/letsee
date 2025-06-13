@@ -81,7 +81,7 @@ const StepTwo = ({
     .toLowerCase()
     .includes("whatsapp");
   return (
-    <div className="py-4 md:py-6">
+    <div className="py-4 md:py-6" style={{position:"relative",zIndex:"5000"}}>
       <div className="relative mb-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/5 to-transparent" />
         <div className="relative p-6 border border-brand-primary/20 rounded-xl">
